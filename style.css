@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0px auto;   
+}
+.navbar{
+    margin: 30px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.navbar > ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar > ul > li{
+    margin: 5px 25px;
+}
+
+@media screen {
+    
+}
