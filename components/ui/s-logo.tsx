@@ -1,21 +1,28 @@
 "use client";
-import { SITE_LOGO_PATH } from "@/lib/constants";
-import NextImage from "next/image";
 
-const SLogo = (props) => {
+import { SITE_LOGO_PATH } from "@/lib/constants";
+import NextImage, { ImageProps } from "next/image";
+
+type SLogoProps = Partial<ImageProps>;
+
+const SLogo = ({
+    src = SITE_LOGO_PATH,
+    alt = "Logo",
+    width = 28,
+    height = 28,
+    ...rest
+}: SLogoProps) => {
     return (
-        <>
-            <NextImage
-                src={`${SITE_LOGO_PATH}`}
-                width={28}
-                height={28}
-                alt="Logo"
-                {...props}
-            />
-        </>
+        <NextImage
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+            {...rest} // Spread remaining props
+        />
     );
 };
 
-SLogo.displayName = "Logo";
+SLogo.displayName = "WebLogo";
 
 export default SLogo;

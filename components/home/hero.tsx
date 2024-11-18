@@ -21,8 +21,9 @@ const Hero = () => {
                     }}
                 >
                     <h1 className="font-title bg-gradient-to-b">
-                        I'm Shobhit, a Full Stack Developer creating amazing
-                        products and solving real world problems using coding.
+                        I&apos;m Shobhit, a Full Stack Developer creating
+                        amazing products and solving real world problems using
+                        coding.
                     </h1>
                     <div className="text-muted-foreground text-sm">
                         India • UTC/GMT +5:30

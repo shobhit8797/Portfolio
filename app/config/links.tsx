@@ -1,12 +1,4 @@
 import {
-    type IconType,
-    SiFacebook,
-    SiGithub,
-    SiInstagram,
-    SiX,
-    SiYoutube,
-} from "@icons-pack/react-simple-icons";
-import {
     BarChartIcon,
     FlameIcon,
     MessageCircleIcon,
@@ -29,12 +21,6 @@ type FooterLinks = Array<{
         href: string;
         text: string;
     }>;
-}>;
-
-type SocialLinks = Array<{
-    href: string;
-    title: string;
-    icon: IconType;
 }>;
 
 export const HEADER_LINKS: HeaderLinks = [
@@ -121,4 +107,3 @@ export const FOOTER_LINKS: FooterLinks = [
         })),
     },
 ];
-
