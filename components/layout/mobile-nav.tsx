@@ -1,13 +1,13 @@
 import { HEADER_LINKS } from "@/app/config/links";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "../ui/dropdown-menu";
 
 const MobileNav = () => {
     return (

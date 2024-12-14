@@ -1,6 +1,6 @@
 "use client";
 
-import { ThemeProvider } from "@/components/utils/theme-provider";
+import { ThemeProvider } from "@/components/layout/theme-provider";
 
 type ProvidesProps = {
     children: React.ReactNode;

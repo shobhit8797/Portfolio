@@ -7,8 +7,8 @@ import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
 import { NavBarLinks } from "./navbar-links";
 import { ThemeToggle } from "./theme-switch";
-import SLogo from "./ui/s-logo";
-import { Separator } from "./ui/separator";
+import SLogo from "../ui/s-logo";
+import { Separator } from "../ui/separator";
 
 export const NavBar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
